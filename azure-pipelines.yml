@@ -1,0 +1,45 @@
+# .NET Core (Test Framework)
+# Build and test .NET Core project
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+parameters:
+- name: TestPlanId
+  type: string
+- name: TestSuiteId
+  type: string
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '$(solution)'
+    feedsToUse: 'select'
+
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
+
+- task: VSTest@2
+  inputs:
+    testSelector: 'testPlan'
+    testPlan: '${{ parameters.TestPlanId }}'
+    testSuite: '${{ parameters.TestSuiteId }}'
+    testConfiguration: '3'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    uiTests: true
+    runInParallel: false
+    distributionBatchType: 'basedOnExecutionTime'

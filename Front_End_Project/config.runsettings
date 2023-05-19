@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <ResultsDirectory>Reports</ResultsDirectory>
+    <TestTimeout>1800000</TestTimeout>
+  </RunConfiguration>
+</RunSettings>
