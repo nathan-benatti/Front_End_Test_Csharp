@@ -3,8 +3,7 @@
 <h3 align="left">Nathan Benatti Silva</h3>
 
 ## Testing Automation Architecture(PageObjects):
-
-![image](https://github.com/nathan-benatti/Front_End_Test_C-/assets/50341422/52fe2d57-98ee-412a-8438-85b2cbb2d1d2)
+![solution explorer](https://github.com/nathan-benatti/Front_End_Test_Csharp/assets/50341422/ed7b809b-7dfb-4907-9be5-a03596e5f8c8)
 
 
 ## Project:
@@ -17,4 +16,5 @@
 
 
 ## Example:
-![csharptestgif](https://github.com/nathan-benatti/Front_End_Test_Csharp/assets/50341422/20701a6c-79ad-4017-b116-6b901a6c62b5)
+![csharptestgif](https://github.com/nathan-benatti/Front_End_Test_Csharp/assets/50341422/72161494-d759-49db-8762-fb3a59be803a)
+
