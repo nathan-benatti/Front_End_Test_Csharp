@@ -1,6 +1,5 @@
 # Front_End_Test_C#
 
-<h2 align="left"> Selenium/BDD</h2>
 <h3 align="left">Nathan Benatti Silva</h3>
 
 ## Testing Automation Architecture(PageObjects):
