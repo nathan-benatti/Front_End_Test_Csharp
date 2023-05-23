@@ -1,6 +1,0 @@
-{
-  "connectionStrings": {
-    "connectionDevTest": "Server=localhost;Port=5432;SearchPath=principal;Database=sampleDB;Username=new_user;Password=password",
-    "connectionUatTest": "Server=localhost;Port=5432;SearchPath=principal;Database=sampleDBUat;Username=new_user;Password=password"
-  }
-}

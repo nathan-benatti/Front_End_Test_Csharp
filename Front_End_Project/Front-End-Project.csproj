@@ -29,15 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resources\Properties\APISettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\Properties\DBSettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Utility\" />
   </ItemGroup>
 
