@@ -7,7 +7,7 @@
 
 
 ## Project:
-     This project is meant to demonstrate a functional working automated test, mainly using 
+     This project is meant to demonstrate a functional working automated test
 
 ## How to execute:
 
